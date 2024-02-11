@@ -1,19 +1,4 @@
-  # Create Turtle object
-  turtle.speed(36)  # Set speed to avoid flicker
-  turtle.bgcolor("black")  # Set background color
-  colors = ["red", "white", "green"]
-  for i in range(360):
-    turtle.color(colors[i % 3])
-    turtle.width(i / 100 + 1)
-    turtle.forward(i)
-    turtle.left(100)
 
-draw_spiral()  # Call the function to execute
-turtle.done()  # Keep the drawing visible
-Utilisez ce code avec précaution. En savoir plus
-Run the script:
-Open a terminal or command prompt in the directory where you saved the file.
-Type python spiral.py and press Enter.
 
 ![image](https://github.com/mouncef121/pythondrawing/assets/152737532/7a57169d-9e1b-4dc7-b77b-e7e6f0af1dfc)
 
